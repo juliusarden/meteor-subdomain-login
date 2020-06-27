@@ -4,15 +4,17 @@
 Please add juliusarden:subdomain-login into your ./meteor/packages before accounts-base in order for it to work on first page visit.
 
 
-On your settings, set the **domains (required)**, expiry (optional) and cookieName (optional)
+On your settings, set the **domains (required)** and other optional fields
 ```
 // settings.json
 {
   ...
   "subdomainLogin": {
-    "domains": "insidesherpa.com",
+    "domains": **"<<YOUR_DOMAIN_HERE>>"**,
     "expiresAfterDays": 30,
-    "cookieName": "subdomain_token"
+    "cookieName": "subdomain_token",
+    "secure" = true,
+    "debug" = false,
   },
 }
 ```
