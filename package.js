@@ -9,6 +9,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.10.1');
   api.use('ecmascript');
+  api.use('localStorage');
   api.mainModule('subdomain-login.js', 'client');
 });
 
