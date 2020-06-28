@@ -10,7 +10,7 @@ On your settings, set the **domains (required)** and other optional fields
 {
   ...
   "subdomainLogin": {
-    "domains": **"<<YOUR_DOMAIN_HERE>>"**,
+    "domains": **["<<YOUR_DOMAIN_HERE>>", "<<YOUR_OTHER_DOMAIN>>"]**,
     "expiresAfterDays": 30,
     "cookieName": "subdomain_token",
     "secure" = true,
