@@ -13,8 +13,9 @@ On your settings, set the **domains (required)** and other optional fields
     "domains": **["<<YOUR_DOMAIN_HERE>>", "<<YOUR_OTHER_DOMAIN>>"]**,
     "expiresAfterDays": 30,
     "cookieName": "subdomain_token",
-    "secure" = true,
-    "debug" = false,
+    "secure": true,
+    "debug": false,
+    "ignoreLocalStorage": false,  // If you want to ignore the default localStorage completely and just use cookie.
   },
 }
 ```
