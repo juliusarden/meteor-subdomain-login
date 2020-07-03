@@ -1,6 +1,6 @@
 Package.describe({
   name: 'juliusarden:subdomain-login',
-  version: '1.0.1',
+  version: '1.1.0',
   summary: 'Persistent Login across subdomains using cookies',
   git: 'https://github.com/juliusarden/meteor-subdomain-login',
   documentation: 'README.md'
